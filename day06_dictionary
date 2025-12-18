@@ -1,0 +1,41 @@
+# Day 6 - Python Dictionary Practice
+
+student = {
+    "name": "Aashi",
+    "age": 28,
+    "course": "Python"
+}
+
+print(student["name"])
+print(student.get("age"))
+
+student["city"] = "Pune"
+student["age"] = 29
+
+print(student)
+
+for key, value in student.items():
+    print(key, ":", value)
+
+marks = {
+    "Maths": 80,
+    "Science": 85,
+    "English": 90
+}
+
+marks["Maths"] = 95
+
+for subject, score in marks.items():
+    print(subject, score)
+
+text = "python is easy and python is powerful"
+words = text.split()
+
+freq = {}
+for word in words:
+    if word in freq:
+        freq[word] += 1
+    else:
+        freq[word] = 1
+
+print(freq)
