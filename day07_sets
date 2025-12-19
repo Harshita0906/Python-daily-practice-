@@ -1,0 +1,21 @@
+# Day 7 - Python Sets Practice
+
+numbers = {1, 2, 3, 4}
+numbers.add(5)
+numbers.discard(2)
+
+print(numbers)
+
+A = {10, 20, 30}
+B = {20, 40, 50}
+
+print("Union:", A | B)
+print("Intersection:", A & B)
+print("Difference:", A - B)
+
+nums = [1, 2, 2, 3, 4, 4, 5]
+unique_nums = set(nums)
+print("Unique values:", unique_nums)
+
+for value in unique_nums:
+    print(value)
