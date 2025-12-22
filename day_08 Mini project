@@ -1,0 +1,32 @@
+
+ # Day 8 - Mini Project: Student Marks Analyzer   
+    
+student_name = "Aashi"
+
+subjects = ["Maths", "Science", "English", "Maths"]
+unique_subjects = set(subjects)
+
+marks = {
+    "Maths": 90,
+    "Science": 85,
+    "English": 88
+}
+
+total = 0
+count = 0
+
+for subject in unique_subjects:
+    total += marks[subject]
+    count += 1
+
+average = total / count
+
+print("Student Name:", student_name)
+print("Subjects:", unique_subjects)
+print("Total Marks:", total)
+print("Average:", average)
+
+if average >= 40:
+    print("Result: PASS")
+else:
+    print("Result: FAIL")
