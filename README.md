@@ -14,12 +14,6 @@ Simple examples with clear logic
 
 Hands-on coding instead of theory-only learning
 
-📅 Progress Tracker
-
-Day 1: Variables, data types, user input, basic operations ✅
-
-(More days will be added consistently.)
-
 🛠️ Tools Used
 
 Python 3
